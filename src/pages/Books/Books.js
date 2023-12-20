@@ -42,31 +42,31 @@ const Content = ({entries, columns, search}) => {
 
 const Books =() => {
   const dispatch = useDispatch();
-  const dataIs = useSelector(state => state.books.data);
+  const data = useSelector(state => state.books.data);
 
   const [order, setOrder] = useState("asc");
   const [search, setSearch] = useState('');
-  const [data, setData] = useState(dataIs);
+  const [dataLoad, setDataLoad] = useState([]);
 
   const columns = ['name','authors', 'country', 'numberOfPages', 'mediaType','isbn', 'publisher', 'released'];
   const sorting =(col) => {
     if (order === 'asc'){
         const sorted = [...data].sort((a,b) => a[col].toString().toLowerCase() > b[col].toString().toLowerCase() ? 1 : -1);
-        setData(sorted)
+        setDataLoad(sorted)
         setOrder('desc')
     }
 
     if (order === 'desc'){
         const sorted = [...data].sort((a,b) => a[col].toString().toLowerCase() < b[col].toString().toLowerCase() ? 1 : -1);
-        setData(sorted)
+        setDataLoad(sorted)
         setOrder('asc')
     }
   };
 
   useEffect(() => {
     dispatch(fetchBooks())
-  })
-
+  }, [])
+  console.log(data)
     return (
         <div>
             {data.isLoading ? 
@@ -77,7 +77,7 @@ const Books =() => {
                 <input type="text" id="search" name="search" onChange={(e) => setSearch(e.target.value)} />
             </form>
             <table className='users-table'>
-                <Header columns={columns} sorting={sorting} />
+                <Header columns={columns} sorting={sorting}/>
                 <Content entries={data} columns={columns} search={search}/>
             </table>
             <div>

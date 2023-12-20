@@ -1,0 +1,50 @@
+.container {
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 8px;
+}
+
+.form {
+ border: 2px solid #73AD21;
+ justify-content: center;
+ width: 25vw;
+ margin: auto; 
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 25px;
+    height: 30px;
+    width: 20vw;
+    text-align: center;
+}
+
+.pair{
+    display: flex;
+    flex-direction: column;
+}
+
+#button {
+    margin-top: 16px;
+    border-radius: 25px;
+    align-self: center;
+    padding: auto;
+    
+}

@@ -33,7 +33,6 @@ const Content = ({entries, columns}) => {
 
 const Characters =()=>{
   const [data, setData] = useState([])
-  const [sorting, setSorting] = useState({column: "id", order: "asc"})
   const columns = ['aliases', 'gender', 'born'];
 //   const houses= "https://www.anapioficeandfire.com/api/houses";
 //   const books = "https://www.anapioficeandfire.com/api/books";
