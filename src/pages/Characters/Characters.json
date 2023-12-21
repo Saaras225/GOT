@@ -1,0 +1,255 @@
+{
+    "characters":[
+        {
+            "characterName":"Arya Stark",
+            "houseName":"Stark",
+            "characterImageThumb":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTk5MTYwNDc0OF5BMl5BanBnXkFtZTcwOTg2NDg1Nw@@._V1._SX100_SY140_.jpg",
+            "characterImageFull":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTk5MTYwNDc0OF5BMl5BanBnXkFtZTcwOTg2NDg1Nw@@._V1_SY1000_CR0,0,665,1000_AL_.jpg",
+            "characterLink":"/character/ch0158604/",
+            "actorName":"Maisie Williams",
+            "actorLink":"/name/nm3586035/",
+            "siblings":[
+               "Robb Stark",
+               "Sansa Stark",
+               "Bran Stark",
+               "Rickon Stark"
+            ],
+            "killed":[
+               "Red Keep Stableboy",
+               "Frey Soldier #1",
+               "Polliver",
+               "Rorge",
+               "Ghita",
+               "Meryn Trant",
+               "The Waif",
+               "Black Walder Rivers",
+               "Lothar Frey",
+               "Walder Frey",
+               "Petyr Baelish",
+               "The Night King",
+               "White Walker",
+               "Viserion"
+            ],
+            "parents":[
+               "Eddard Stark",
+               "Catelyn Stark"
+            ],
+            "guardedBy":[
+               "Nymeria"
+            ]
+         },
+         {
+            "characterName":"Sansa Stark",
+            "houseName":"Stark",
+            "characterImageThumb":"https://images-na.ssl-images-amazon.com/images/M/MV5BNjAwMjE2NDExNF5BMl5BanBnXkFtZTcwODAwODg4OQ@@._V1._SX100_SY140_.jpg",
+            "characterImageFull":"https://images-na.ssl-images-amazon.com/images/M/MV5BNjAwMjE2NDExNF5BMl5BanBnXkFtZTcwODAwODg4OQ@@._V1_SY1000_CR0,0,806,1000_AL_.jpg",
+            "characterLink":"/character/ch0158137/",
+            "actorName":"Sophie Turner",
+            "actorLink":"/name/nm3849842/",
+            "royal":true,
+            "siblings":[
+               "Robb Stark",
+               "Arya Stark",
+               "Bran Stark",
+               "Rickon Stark"
+            ],
+            "marriedEngaged":[
+               "Joffrey Baratheon",
+               "Tyrion Lannister",
+               "Ramsay Snow"
+            ],
+            "guardedBy":[
+               "Lady"
+            ],
+            "parents":[
+               "Eddard Stark",
+               "Catelyn Stark"
+            ]
+         },
+         {
+            "characterName":"Daenerys Targaryen",
+            "houseName":"Targaryen",
+            "characterImageThumb":"https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MzIxMTQwMF5BMl5BanBnXkFtZTcwMzY2NDg1Nw@@._V1._SX100_SY140_.jpg",
+            "characterImageFull":"https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MzIxMTQwMF5BMl5BanBnXkFtZTcwMzY2NDg1Nw@@._V1_SY1000_CR0,0,810,1000_AL_.jpg",
+            "characterLink":"/character/ch0158597/",
+            "actorName":"Emilia Clarke",
+            "actorLink":"/name/nm3592338/",
+            "royal":true,
+            "parents":[
+               "Aerys II Targaryen",
+               "Rhaella Targaryen"
+            ],
+            "siblings":[
+               "Rhaegar Targaryen",
+               "Viserys Targaryen"
+            ],
+            "killed":[
+               "Khal Drogo",
+               "Mirri Maz Duur",
+               "Doreah",
+               "Xaro Xhoan Daxos",
+               "Khal Rhalko",
+               "Khal Brozho",
+               "Khal Qorro",
+               "Khal Forzho",
+               "Khal Moro",
+               "Dothraki Bloodrider #1",
+               "Dothraki Bloodrider #2",
+               "Randyll Tarly",
+               "Dickon Tarly",
+               "Eleanor",
+               "Eleanor's Daughter",
+               "Lord Varys"
+            ],
+            "servedBy":[
+               "Barristan Selmy",
+               "Daario Naharis",
+               "Grey Worm",
+               "Jorah Mormont",
+               "Missandei",
+               "Tyrion Lannister"
+            ],
+            "parentOf":[
+               "Rhaego"
+            ],
+            "marriedEngaged":[
+               "Khal Drogo"
+            ],
+            "guardedBy":[
+               "Drogon",
+               "Rhaegal",
+               "Viserion"
+            ],
+            "killedBy":[
+               "Jon Snow"
+            ]
+         },
+         {
+            "characterName":"Jon Snow",
+            "houseName":[
+               "Stark",
+               "Targaryen"
+            ],
+            "characterImageThumb":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwMjUxMDk2OV5BMl5BanBnXkFtZTcwMzg3MTg4OQ@@._V1._SX100_SY140_.jpg",
+            "characterImageFull":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwMjUxMDk2OV5BMl5BanBnXkFtZTcwMzg3MTg4OQ@@._V1_.jpg",
+            "characterLink":"/character/ch0155777/",
+            "actorName":"Kit Harington",
+            "actorLink":"/name/nm3229685/",
+            "royal":true,
+            "parents":[
+               "Rhaegar Targaryen",
+               "Lyanna Stark"
+            ],
+            "guardedBy":[
+               "Eddard Stark",
+               "Ghost"
+            ],
+            "killed":[
+               "Othor",
+               "Qhorin Halfhand",
+               "Orell",
+               "Karl Tanner",
+               "Styr",
+               "Mance Rayder",
+               "Janos Slynt",
+               "White Walker",
+               "Alliser Thorne",
+               "Othell Yarwyck",
+               "Bowen Marsh",
+               "Olly",
+               "Lyanna Stark",
+               "Daenerys Targaryen"
+            ],
+            "killedBy":[
+               "Alliser Thorne",
+               "Othell Yarwyck",
+               "Bowen Marsh",
+               "Olly"
+            ],
+            "marriedEngaged":[
+               "Ygritte"
+            ]
+         },
+         {
+            "characterName":"Cersei Lannister",
+            "houseName":[
+               "Lannister",
+               "Baratheon"
+            ],
+            "characterImageThumb":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzNTAxNjExMl5BMl5BanBnXkFtZTcwMDEwNzI4OQ@@._V1._CR954,56,605,670._SX100_SY140_.jpg",
+            "characterImageFull":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzNTAxNjExMl5BMl5BanBnXkFtZTcwMDEwNzI4OQ@@._V1._CR954,56,605,670_.jpg",
+            "characterLink":"/character/ch0159526/",
+            "actorName":"Lena Headey",
+            "actorLink":"/name/nm0372176/",
+            "parents":[
+               "Tywin Lannister"
+            ],
+            "parentOf":[
+               "Joffrey Baratheon",
+               "Myrcella Baratheon",
+               "Tommen Baratheon"
+            ],
+            "royal":true,
+            "siblings":[
+               "Jaime Lannister",
+               "Tyrion Lannister"
+            ],
+            "marriedEngaged":[
+               "Robert Baratheon"
+            ],
+            "killed":[
+               "Lancel Lannister",
+               "High Sparrow",
+               "Loras Tyrell",
+               "Mace Tyrell",
+               "Margaery Tyrell",
+               "Kevan Lannister",
+               "Tyene Sand"
+            ],
+            "killedBy":[
+               "Roof collapse"
+            ]
+         },
+         {
+            "characterName":"Tyrion Lannister",
+            "houseName":"Lannister",
+            "characterImageThumb":"https://images-na.ssl-images-amazon.com/images/M/MV5BMjA2MDAwOTI0OV5BMl5BanBnXkFtZTcwNjA3NDg1Nw@@._V1._SX100_SY140_.jpg",
+            "characterImageFull":"https://images-na.ssl-images-amazon.com/images/M/MV5BMjA2MDAwOTI0OV5BMl5BanBnXkFtZTcwNjA3NDg1Nw@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "characterLink":"/character/ch0146096/",
+            "actorName":"Peter Dinklage",
+            "actorLink":"/name/nm0227759/",
+            "marriedEngaged":[
+               "Sansa Stark"
+            ],
+            "killed":[
+               "Shae",
+               "Tywin Lannister"
+            ],
+            "parents":[
+               "Tywin Lannister"
+            ],
+            "siblings":[
+               "Cersei Lannister",
+               "Jaime Lannister"
+            ],
+            "serves":[
+               "Daenerys Targaryen"
+            ]
+         },
+         {
+            "characterName":"Brandon Stark",
+            "houseName":"Stark",
+            "killedBy":[
+               "Aerys II Targaryen"
+            ],
+            "parents":[
+               "Rickard Stark"
+            ],
+            "siblings":[
+               "Lyanna Stark",
+               "Benjen Stark",
+               "Eddard Stark"
+            ]
+         }
+    ]
+ }

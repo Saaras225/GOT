@@ -1,4 +1,5 @@
 import Table from "./Table";
+import TagsTable from "../TagsTable";
 
 export default {
     title: "components/Table",
@@ -42,5 +43,6 @@ export default {
 };
 
 const Template = (args) => <Table {...args} />;
+
 
 export const Content = Template.bind({});

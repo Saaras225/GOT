@@ -12,6 +12,12 @@ const bookSlice = createSlice({
         data: [],
         error: false
     },
+    reducers: {
+        setBooks: (state, action) => {
+            state.data = action.payload
+        }
+    },
+
     extraReducers: (builder) => {
         builder.addCase(fetchBooks.pending, (state, action) => {
             state.isLoading = true
@@ -27,4 +33,5 @@ const bookSlice = createSlice({
     } 
 })
 
+export const {setBooks} = bookSlice.actions
 export default bookSlice.reducer;

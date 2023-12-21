@@ -1,0 +1,34 @@
+{
+    "books": [
+        {"name": "A Game of Thrones",
+         "link": "https://www.goodreads.com/book/show/13496.A_Game_of_Thrones?from_search=true&from_srp=true&qid=Y9TJOjuyOK&rank=1"
+        },
+        {"name": "A Clash of Kings",
+         "link": "https://www.goodreads.com/book/show/10572.A_Clash_of_Kings?from_search=true&from_srp=true&qid=Y2dqjMtCMF&rank=1"
+        },
+        {"name": "A Storm of Swords",
+         "link": "https://www.goodreads.com/book/show/62291.A_Storm_of_Swords?from_search=true&from_srp=true&qid=NvabshLMLY&rank=1"
+        },
+        {"name": "The Hedge Knight",
+         "link": "https://www.goodreads.com/book/show/11970747-the-hedge-knight?from_search=true&from_srp=true&qid=H4Ufb3mIFG&rank=1"
+        },
+        {"name": "A Feast for Crows",
+         "link": "https://www.goodreads.com/book/show/13497.A_Feast_for_Crows?from_search=true&from_srp=true&qid=Brp71iOago&rank=1"
+        },
+        {"name": "The Sworn Sword",
+         "link": "https://www.goodreads.com/book/show/11985631-the-sworn-sword?ref=nav_sb_ss_1_15"
+        },
+        {"name": "The Mystery Knight",
+         "link": "https://www.goodreads.com/book/show/11350430-the-mystery-knight?ref=nav_sb_ss_1_18"
+        },
+        {"name": "A Dance with Dragons",
+         "link": "https://www.goodreads.com/book/show/10664113-a-dance-with-dragons?from_search=true&from_srp=true&qid=co83M93yfX&rank=1"
+        },
+       {"name": "The Princess and the Queen",
+        "link": "https://www.goodreads.com/book/show/21957747-the-princess-and-the-queen-or-the-blacks-and-the-greens?from_search=true&from_srp=true&qid=9nXZJkULKU&rank=1"
+       },
+       {"name": "The Rogue Prince",
+        "link": "https://awoiaf.westeros.org/index.php/The_Rogue_Prince"
+       }
+    ]
+}

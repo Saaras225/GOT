@@ -1,20 +1,20 @@
-import Header from "./Header";
+import TagsTable from "./TagsTable";
 
 export default {
-    title: "components/Header",
-    component: Header,
+    title: "components/TagsTable",
+    component: TagsTable,
     args: {
         columns : ['name','authors', 'country', 'number Of Pages'],
     }
 };
 
-const Template = (args) => <Header {...args} />;
+const Template = (args) => <TagsTable {...args} />;
 
-export const Title = Template.bind({});
+export const Primary = Template.bind({});
 
 export const Arrows = Template.bind({});
-Arrows.arg = {
+Arrows.args = {
   columns : ['name','authors', 'country', 'number Of Pages'],
   upIcon: true, 
-  downIcon: false,
+  downIcon: true,
 }

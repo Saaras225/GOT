@@ -1,11 +1,21 @@
 import Form from "./Form";
+import Button from "./../Button";
 
 export default {
     title: "components/Form",
     component: Form,
     args: {
-      text: 'Publicar',
-      title: 'Publicar Nuevo Libro',
+      title: 'Título',
+      button: <Button 
+      text= 'Custom'
+      color= 'white'
+      font= 'Courier New'
+      size= '20px'
+      border= '25px'
+      backColor= 'black'
+      onclick= {()=>alert('Click')}
+      title= 'Agregar Nuevo Libro'
+      />
     }
 };
 

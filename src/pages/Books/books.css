@@ -1,7 +1,8 @@
-.users-table {
+.table {
     table-layout: fixed;
-    width: 100%;
+    width: 85%;
     border-collapse: collapse;
+    margin: 15px auto 50px auto;
 }
 
 .users-table-cell {
@@ -14,4 +15,9 @@
  display: flex;
  flex-direction: row;
  justify-content: space-around;
+}
+
+.search {
+ margin-bottom: 1rem;
+ margin-left: 8rem;
 }

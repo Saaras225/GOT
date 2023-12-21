@@ -1,26 +1,22 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom";
-import Layout from './pages/Layout';
 import Characters from './pages/Characters/Characters';
-import Dashboard from './pages/Dashboard';
-import Home from './pages/Home';
 import Books from './pages/Books/Books';
-import Default from './pages/Default';
-
+import Navbar from './pages/Navbar/Navbar';
+import FormBook from './pages/FormBook/FormBook';
 
 function App() {
     return (
-    <div className="">
-     <h1>Routes</h1>
-     <Routes>
-      <Route path="/" element={<Layout />} />
-      <Route path="characters" element={<Characters />} />
-      <Route path="/" element={<Home />} />
-      <Route path="dashboard" element={<Dashboard />} />
-      <Route path="books" element={<Books />} />
-      <Route path="*" element={<Default/>} />
-     </Routes>
-    </div>
+      <div className='App'>
+          <Navbar />
+          <div className="container">
+          <Routes>
+            <Route path="/" element={<Characters />} />
+            <Route path="/books" element={<Books />} />
+            <Route path="/formBook" element={<FormBook />} />
+          </Routes>
+        </div>
+      </div>
   );
 }
 

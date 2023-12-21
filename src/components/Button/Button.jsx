@@ -2,19 +2,39 @@ import React from "react";
 import PropTypes from 'prop-types';
 import './Button.css';
 
-const getStyles = (...args) => ["button", ...args].filter(Boolean).join(" ")
-
-const Button= ({children, type}) => {
+const Button= (props) => {
+    const {
+        text, 
+        color, 
+        font, 
+        size, 
+        backColor, 
+        border, 
+        onClick
+    } = props;
     return(
-        <button className={getStyles(type)}>
-            {children}
+        <button className="button" 
+         style={{
+            color:`${color}`, 
+            fontFamily:`${font}`,  
+            fontSize:`${size}`, 
+            borderRadius:`${border}`, 
+            backgroundColor:`${backColor}`
+         }}
+         onClick={onClick}>
+            {text}
         </button>
     );
 };
 
 Button.propTypes = {
- children: PropTypes.string.isRequired,
- type: PropTypes.oneOf(["primary", "secondary", "tertiary"])
+ text: PropTypes.string,
+ color: PropTypes.string,
+ font: PropTypes.string,
+ size: PropTypes.string,
+ border:PropTypes.string,
+ backColor: PropTypes.string,
+ onClick: PropTypes.func,
 }
 
 export default Button;
