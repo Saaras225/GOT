@@ -27,3 +27,11 @@
     border-radius: 25px;
   
 }
+
+.titleGOT{
+    margin-top: 5px;
+
+    img{
+        border-radius: 30px;
+    }
+}

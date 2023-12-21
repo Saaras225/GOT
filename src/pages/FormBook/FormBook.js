@@ -4,10 +4,6 @@ import Button from '../../components/Button';
 
 const FormBook =() => {
     
-    const publish = (values) => {
-      JSON.stringify(values);
-    };
-
     const buttonForm = <Button 
         text= 'Publicar'
         color= 'white'
@@ -24,7 +20,7 @@ const FormBook =() => {
                 id='form'
                 title="Agregar Nuevo Libro" 
                 color= 'white'
-                onSubmit={()=>alert('La información ha sido cargada')} 
+                onSubmit={()=> alert('La información ha sido cargada')} 
                 button={buttonForm} 
             /> 
         </div>
