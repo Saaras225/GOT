@@ -13,15 +13,17 @@ const Button= (props) => {
         onClick
     } = props;
     return(
-        <button className="button" 
-         style={{
-            color:`${color}`, 
-            fontFamily:`${font}`,  
-            fontSize:`${size}`, 
-            borderRadius:`${border}`, 
-            backgroundColor:`${backColor}`
-         }}
-         onClick={onClick}>
+        <button 
+            className="button"
+            onClick={onClick}
+            style={{
+                color:`${color}`, 
+                fontFamily:`${font}`,  
+                fontSize:`${size}`, 
+                borderRadius:`${border}`, 
+                backgroundColor:`${backColor}`
+            }}
+         >
             {text}
         </button>
     );

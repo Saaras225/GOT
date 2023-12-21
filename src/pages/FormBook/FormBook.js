@@ -5,7 +5,7 @@ import Button from '../../components/Button';
 const FormBook =() => {
     
     const publish = (values) => {
-       alert(JSON.stringify(values));
+      JSON.stringify(values);
     };
 
     const buttonForm = <Button 
@@ -15,17 +15,19 @@ const FormBook =() => {
         size= '20px'
         border= '10px'
         backColor= 'green'
-        onclick= {()=>alert('Click')}
         title= 'Agregar Nuevo Libro'
     />;
 
     return (
+        <div className='ContainerForm'>
             <Form 
+                id='form'
                 title="Agregar Nuevo Libro" 
                 color= 'white'
-                onSubmit={publish} 
+                onSubmit={()=>alert('La información ha sido cargada')} 
                 button={buttonForm} 
-            />     
+            /> 
+        </div>
     )
 }
 

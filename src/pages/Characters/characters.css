@@ -1,11 +1,29 @@
-.users-table {
-    table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
+.characterContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
 }
 
-.users-table-cell {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+.itemCharac{
+    margin:16px;
+    transition: transform .2s;
+}
+
+.itemCharac:hover{
+    transform: scale(1.2);
+    filter: saturate(180%) 
+}
+
+.personalData{
+    display: flex;
+    flex-direction: row;
+    color:white
+}
+
+.imgCharac {
+    border-radius: 25px;
+  
 }

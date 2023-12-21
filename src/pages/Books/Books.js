@@ -6,6 +6,7 @@ import Table from '../../components/Table';
 import TagsTable from '../../components/TagsTable'
 import Search from '../../components/Search/Search';
 import links from './../../utils/Links.json'
+import Button from '../../components/Button';
 
 const Books =() => {
   const dispatch = useDispatch();
@@ -30,36 +31,47 @@ const Books =() => {
     }
   };
 
-  const publish = (values) => {
-    alert(JSON.stringify(values));
-  };
-
   useEffect(() => {
     dispatch(fetchBooks())
   }, [])
+
     return (
-        <div>
-            {data.isLoading ? 
-            <h1>loading....</h1> : 
+        <div className='containerBooks'>
+            {data.isLoading? 
+            <h1 id='loading'>loading....</h1> : 
+            <div className='tableContent'>
+              <div className='searc'>
+                  <Search 
+                    title= "Search" 
+                    onChange={(e) => setSearch(e.target.value)}
+                    colorTitle= "white"
+                    sizeTitle= '24px'
+                    fontInput= 'Times New Roman' 
+                    sizeInput= '24px' 
+                  />
+              </div>
+              <div>
+                <table className='table' >
+                    <TagsTable columns={columns} onClick={sorting} upIcon downIcon iconColor='white' color='white'/>
+                    <Table entries={data} columns={columns} search={search} color='white' links={linksAll}  />
+                </table>
+              </div>
+            </div>}
+            
+            {data.error && 
             <div>
-             <div className='searc'>
-                <Search 
-                  title= "Search" 
-                  onChange={(e) => setSearch(e.target.value)}
-                  colorTitle= "white"
-                  sizeTitle= '24px'
-                  fontInput= 'Times New Roman' 
-                  sizeInput= '24px' 
-                />
+              <h1 id='loading'>Hubo un error....</h1>
+              <Button 
+                text= 'Intenta nuevamente'
+                color= 'white'
+                font= 'Arial'
+                size= '20px'
+                border= '10px'
+                backColor= 'red'
+                onClick= {()=>window.location.reload()}
+                title= 'Agregar Nuevo Libro' />
             </div>
-            <div>
-              <table className='table' >
-                  <TagsTable columns={columns} onClick={sorting} upIcon downIcon iconColor='white' color='white'/>
-                  <Table entries={data} columns={columns} search={search} color='white' links={linksAll}  />
-              </table>
-            </div>
-        </div>
-    }
+            }
     </div>
 )}
 

@@ -5,7 +5,7 @@ import './Table.css';
 const Table= (props) => {
     const {entries, columns, search, color, links} = props;
     return(
-        search ? 
+        search? 
          <tbody> 
             {entries.filter((item) =>
                 search === ''? 
@@ -18,7 +18,7 @@ const Table= (props) => {
                     {columns.map((column) => (
                         column === 'name'? 
                         <td className='users-table-cell' key={column}>
-                         <a href={links} target="_blank" style={{color: `${color}`}}>{entry[column]}</a>:
+                         <a href={links? links.find((item) => item.name == entry[column]).link : ''} target="_blank" style={{color: `${color}`}}>{entry[column]}</a>:
                         </td> :
                         <td className='users-table-cell' key={column}>
                             <p style={{color: `${color}`}}>{entry[column]}</p>
@@ -34,7 +34,7 @@ const Table= (props) => {
                     {columns.map((column) => ( 
                         column === 'name'? 
                         <td className='users-table-cell' key={column}>
-                         <a href={links} target="_blank" style={{color: `${color}`}}>{entry[column]}</a>:
+                         <a href={links? links.find((item) => item.name == entry[column]).link : ''} target="_blank" style={{color: `${color}`}}>{entry[column]}</a>:
                         </td> :
                         <td className='users-table-cell' key={column}>
                             <p style={{color: `${color}`}}>{entry[column]}</p>

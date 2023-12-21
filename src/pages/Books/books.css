@@ -1,3 +1,8 @@
+.containerBooks {
+ margin-top: 25px;
+}
+
+
 .table {
     table-layout: fixed;
     width: 85%;
@@ -20,4 +25,9 @@
 .search {
  margin-bottom: 1rem;
  margin-left: 8rem;
+}
+
+#loading {
+  font-size: 60px;
+  color: white;
 }

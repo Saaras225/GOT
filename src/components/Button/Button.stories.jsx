@@ -5,7 +5,7 @@ export default {
     component: Button,
     args: {
         text: "Button",
-        onclick: ()=>alert('Click')
+        onclick: ()=> alert('Click')
     }
 };
 
@@ -41,5 +41,5 @@ CustomAll.args = {
  size: '32px',
  border: '24px',
  backColor: '#2F4F4F',
- onclick:()=>alert('Click'),
+ onclick:()=> alert('Click'),
 }
