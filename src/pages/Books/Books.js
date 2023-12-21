@@ -50,7 +50,7 @@ const Books =() => {
                     sizeInput= '24px' 
                   />
               </div>
-              <div>
+              <div className='tableBooks'>
                 <table className='table' >
                     <TagsTable columns={columns} onClick={sorting} upIcon downIcon iconColor='white' color='white'/>
                     <Table entries={data} columns={columns} search={search} color='white' links={linksAll}  />

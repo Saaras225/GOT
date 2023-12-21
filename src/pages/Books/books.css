@@ -1,13 +1,12 @@
 .containerBooks {
- margin-top: 25px;
+ padding: 25px;
 }
-
 
 .table {
     table-layout: fixed;
-    width: 85%;
+    width: 90vw;
     border-collapse: collapse;
-    margin: 15px auto 50px auto;
+    margin: auto;
 }
 
 .users-table-cell {
@@ -24,7 +23,7 @@
 
 .search {
  margin-bottom: 1rem;
- margin-left: 8rem;
+ margin-left: 4rem;
 }
 
 #loading {
