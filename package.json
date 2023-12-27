@@ -1,5 +1,5 @@
 {
-  "homepage": "https://saaras225.github.io",
+  "homepage": "https://saaras225.github.io/GOT",
   "name": "got",
   "version": "0.1.0",
   "private": true,
@@ -59,7 +59,7 @@
     "@storybook/react-webpack5": "^7.6.6",
     "@storybook/test": "^7.6.6",
     "eslint-plugin-storybook": "^0.6.15",
-    "gh-pages": "^6.1.0",
+    "gh-pages": "^6.1.1",
     "prop-types": "^15.8.1",
     "storybook": "^7.6.6",
     "webpack": "^5.89.0"
