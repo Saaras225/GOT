@@ -17,7 +17,7 @@ const Books =() => {
   const [order, setOrder] = useState("asc");
   const [search, setSearch] = useState('');
   const columns = ['name','authors', 'country', 'numberOfPages', 
-  'mediaType','isbn', 'publisher', 'released'];
+  'mediaType','isbn', 'publisher', 'released', 'add Fav'];
   
   const sorting =(col) => {
     if (order === 'asc'){
@@ -48,7 +48,7 @@ const Books =() => {
     <div className='tableBooks'>
       <table className='table' >
           <TagsTable columns={columns} onClick={sorting} upIcon downIcon iconColor='white' color='white'/>
-          <Table entries={data} columns={columns} search={search} color='white' links={linksAll}  />
+          <Table entries={data} columns={columns} search={search} color='white' links={linksAll}  /> 
       </table>
     </div>
   </div>

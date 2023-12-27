@@ -15,3 +15,18 @@
  flex-direction: row;
  justify-content: space-around;
 }
+
+.btnWhite {
+ background-color: transparent;
+ border: none;
+ border: transparent;
+ font-size: 30px;
+ color:white;
+}
+   
+.btnRed {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 30px;
+}

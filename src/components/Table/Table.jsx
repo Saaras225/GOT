@@ -1,9 +1,22 @@
 import React from "react";
+import {useState} from 'react';
 import PropTypes from 'prop-types';
 import './Table.css';
+import {useDispatch} from 'react-redux';
+import {addItem} from '../../redux/favSlicer';
+
+
 
 const Table= (props) => {
+    const dispatch = useDispatch();
     const {entries, columns, search, color, links} = props;
+    const [btnAdd, setBtnAdd] = useState(false)
+    function addChange(item){
+        dispatch(addItem(item));
+        setBtnAdd(btnState => !btnState);
+    }
+
+    let tggle = btnAdd ? 'White' : 'Red';
     return(
         search? 
          <tbody> 
@@ -36,9 +49,17 @@ const Table= (props) => {
                         <td className='users-table-cell' key={column}>
                          <a href={links? links.find((item) => item.name == entry[column]).link : ''} target="_blank" style={{color: `${color}`}}>{entry[column]}</a>:
                         </td> :
+                       column === 'add Fav'?
+                        <td className='users-table-cell' key={column}>
+                          <button className={`btn${tggle}`} onClick={()=>{addChange(entry)}}>♥</button>
+                        </td> :
+                        column === 'released'?
+                        <td className='users-table-cell released' key={column}>
+                            <p style={{color: `${color}`}}>{entry.released.split('-')[0]}</p>
+                        </td>:
                         <td className='users-table-cell' key={column}>
                             <p style={{color: `${color}`}}>{entry[column]}</p>
-                        </td>    
+                        </td> 
                     ))}
                 </tr>
             ))}

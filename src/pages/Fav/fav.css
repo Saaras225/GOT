@@ -1,0 +1,31 @@
+
+.container {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: 1;
+}
+
+.card {
+ border: 1px solid #dddddd;
+ width: 25vw;
+ border-radius: 25px;
+ margin: 25px 15px 15px 30px;
+ font-size: 20px;
+
+ p{
+  color: white
+ }
+}
+
+.no {
+    display: none
+ }
+
+
+#erase {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 25px;
+    color:white;
+    background-color: transparent;    
+}

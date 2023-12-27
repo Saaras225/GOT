@@ -9,6 +9,7 @@ const Navbar =()=> {
                 <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/books">Books</CustomLink>
                 <CustomLink to="/formBook">Add Book</CustomLink>
+                <CustomLink to="/fav">Favs</CustomLink>
 
             </ul>
         </nav>
