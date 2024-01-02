@@ -7,7 +7,7 @@ const Characters =()=>{
     const data = characters;
     const [cast, setCast] = useState([]);
     const urlGOT = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQbrby4iLrUkapqxUXakoY19uL79BW-CToEg&usqp=CAU';
-    const castAll = data.characters.map((item, index, arr) => {
+    const castAll = data.characters.map((item) => {
         return(
             <div className='itemCharac'>
                 <Link to={{pathname:`/Card/${item.characterName}`, state:{item: item}}} >

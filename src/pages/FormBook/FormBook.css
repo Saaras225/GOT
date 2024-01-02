@@ -1,1 +1,4 @@
-
+.ContainerForm {
+    display: flex;
+    flex-direction: column;
+}

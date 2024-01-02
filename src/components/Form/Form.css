@@ -1,10 +1,9 @@
-.container {
+.all{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 35px auto;
-    width: 100vw;
+    margin: 25px auto 0px auto;
 }
 
 #title {
@@ -17,8 +16,6 @@
 
 .form {
  border-radius: 25px;
- justify-content: center;
- width: 50vw;
 }
 
 .fields {

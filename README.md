@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project is available in [GOT](https://saaras225.github.io/GOT/).
+This project is available in [GOT](https://saaras225.github.io/home).
 
 ##To run storybook, you can run ### `npm run storybook`
 

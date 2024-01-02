@@ -48,7 +48,8 @@ const FormBook= (props) => {
     } = props;
 
     return (
-     <div>
+     <div className='all'>
+        <div id='title' style={{color: `${color}`}} >{title}</div>
         <Formik
             initialValues = {{
             title: '',
@@ -60,7 +61,6 @@ const FormBook= (props) => {
             >
             <Form className="form">
             <div className="container">
-                <div id='title' style={{color: `${color}`}} >{title}</div>
                 <div className="fields">
                     <div className="pair">
                         <Field className="item" name="title" type="text" placeholder="Title" required/>
@@ -90,10 +90,10 @@ const FormBook= (props) => {
                         <Field className="item" name="released" type="date" placeholder="released" />
                     </div>
                 </div>
-                <div onClick={onSubmit} type="submit">{button}</div>
                 </div>
             </Form>
         </Formik>
+        <div onClick={onSubmit} type="submit">{button}</div>
      </div>
     );
 };
